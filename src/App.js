@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
+import Label from './components/label';
+
 import './App.css';
 
 function App() {
@@ -7,9 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Label text="Edit src/App.js and save to reload." />
         <a
           className="App-link"
           href="https://reactjs.org"
